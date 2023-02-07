@@ -153,7 +153,7 @@ void SignIn(book head){
                     cout << "Wrong Number"<<endl;
                     break;
                 }
-            }else if (count < 3){
+            }else if (count < 2){
                 cout<< "Invalid Password"<<endl;
                 count += 1;
             }else {
